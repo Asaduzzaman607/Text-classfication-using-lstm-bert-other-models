@@ -69,6 +69,30 @@ pip install os numpy pandas matplotlib seaborn nltk wordcloud beautifulsoup4 sci
 Upload Text_classification_G24.ipynb to Google Drive.
 Open it in Google Colab and follow the setup instructions in the notebook.
 Models Evaluated
+Step 3: Run in Google Colab
+Copy the code into a Colab notebook.
+
+Add the following commands at the top of the notebook to install required libraries:
+
+python
+Copy code
+!pip install pandas numpy matplotlib seaborn scikit-learn tensorflow transformers xgboost nltk wordcloud beautifulsoup4
+If the dataset is on your local machine, upload it to Colab:
+
+python
+Copy code
+from google.colab import files
+uploaded = files.upload()
+Alternatively, load the dataset from Google Drive:
+
+python
+Copy code
+from google.colab import drive
+drive.mount('/content/drive')
+data = pd.read_csv('/content/drive/My Drive/path_to_dataset/imdb.csv')
+Run all cells sequentially.
+
+
 BERT: State-of-the-art transformer-based language model for contextual understanding.
 LSTM: Sequential model capable of learning long-term dependencies.
 Logistic Regression: Efficient and interpretable traditional machine learning model.
