@@ -25,13 +25,45 @@ Sentiment analysis is a crucial text classification task aimed at understanding 
 
 ### Prerequisites
 - Python 3.8 or higher
-- Libraries: `transformers`, `torch`, `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `xgboost`
+- Libraries: `transformers`, `torch`, `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `xgboost`, 
+Dependencies
+The following libraries and frameworks are required to run this project:
 
+Python Libraries
+Core Libraries:
+
+os
+numpy
+pandas
+matplotlib
+seaborn
+Natural Language Processing:
+
+nltk
+wordcloud
+beautifulsoup4
+Machine Learning:
+
+scikit-learn
+xgboost
+Deep Learning:
+
+tensorflow
+keras (included within tensorflow)
+Transformers:
+
+transformers
+Other Utilities:
+
+tokenizers
 ### Installation
 1. Clone the repository:
    ```bash
    git clone <repository_url>
    cd <repository_name>
+
+pip install os numpy pandas matplotlib seaborn nltk wordcloud beautifulsoup4 scikit-learn xgboost tensorflow transformers tokenizers
+
 
 **Running on Google Colab**
 Upload Text_classification_G24.ipynb to Google Drive.
